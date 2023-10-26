@@ -1,0 +1,13 @@
+:root {
+    /* Define a fonte primária a ser usada como "Baloo Da 2" e serif */
+    --font-primary: "Baloo Da 2", serif;
+
+    /* Define a fonte secundária a ser usada como "Josefin Slab" e serif */
+    --font-secondary: "Josefin Slab", serif;
+
+    /* Define a fonte terciária a ser usada como 'JetBrains Mono' e monospace */
+    --font-tertiary: 'JetBrains Mono', monospace;
+
+    /* Define a fonte de ação a ser usada como "Mulish" e serif */
+    --font-action: "Mulish", serif;
+}

@@ -1,0 +1,67 @@
+/* Animação moveMenu */
+@keyframes moveMenu {
+    0% {
+        /* Começa a animação com um deslocamento para a direita */
+        transform: translateX(10rem);
+    }
+    100% {
+        /* Termina a animação sem deslocamento, trazendo o elemento de volta ao seu estado original */
+        transform: translateX(0);
+    }
+}
+
+/* Animação moveBanner */
+@keyframes moveBanner {
+    0% {
+        /* Inicia a animação com um deslocamento para baixo e uma rotação */
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    100% {
+        /* Termina a animação sem deslocamento e sem rotação, tornando o elemento visível */
+        transform: translateY(0) rotateY(0);
+        opacity: 1; /* Faz o elemento ficar completamente visível */
+    }
+}
+
+/* Animação zoom */
+@keyframes zoom {
+    0% {
+        /* Começa a animação com uma escala maior */
+        transform: scale(1.3);
+    }
+    100% {
+        /* Termina a animação com uma escala normal, restaurando o tamanho original */
+        transform: scale(1);
+    }
+}
+
+/* Animação opacity */
+@keyframes opacity {
+    0% {
+        /* Começa a animação com opacidade zero, tornando o elemento invisível */
+        opacity: 0%;
+    }
+    100% {
+        /* Termina a animação com opacidade 100%, tornando o elemento completamente visível */
+        opacity: 100%;
+    }
+}
+
+/* Animação checkbx */
+@keyframes checkbx {
+    0% {
+        /* Começa a animação com opacidade total e sem rotação */
+        opacity: 1;
+        transform: scale(1) rotateY(0deg);
+    }
+    50% {
+        /* Meio da animação com opacidade zero e uma rotação de 180 graus */
+        opacity: 0;
+        transform: scale(.8) rotateY(180deg);
+    }
+    100% {
+        /* Termina a animação com opacidade total e uma rotação completa de 360 graus */
+        opacity: 1;
+        transform: scale(1) rotateY(360deg);
+    }
+}
